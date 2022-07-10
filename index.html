@@ -1,15 +1,81 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fake word</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> <center> Hey There </center> </h1>
-    <hr>
-    <p> <center>just testing github</center> </p>
-    <p>  <center>now you can check out my website online</center> </p>
+    <p id="fileName">unsaved file - Word</p>
+    <div class="tab">
+        <button class="tablinks" onclick="menuBar(event, 'File')">File</button>
+        <button class="tablinks" onclick="menuBar(event, 'Home')">Home</button>
+        <button class="tablinks" onclick="menuBar(event, 'Insert')">Insert</button>
+        <button class="tablinks" onclick="menuBar(event, 'Design')">Design</button>
+        <button class="tablinks" onclick="menuBar(event, 'Layout')">Layout</button>
+        <button class="tablinks" onclick="menuBar(event, 'References')">References</button>
+        <button class="tablinks" onclick="menuBar(event, 'Mailings')">Mailings</button>
+        <button class="tablinks" onclick="menuBar(event, 'Review')">Review</button>
+        <button class="tablinks" onclick="menuBar(event, 'View')">View</button>
+        <button class="tablinks" onclick="menuBar(event, 'Help')">Help</button>
+      </div>
+      
+      <div id="File" class="tabcontent">
+        <h3>File</h3>
+        <p>edit file here.</p>
+      </div>
+      
+      <div id="Home" class="tabcontent">
+        <h3>Home</h3>
+        <p>edit home here.</p>
+      </div>
+      
+      <div id="Insert" class="tabcontent">
+        <h3>Insert</h3>
+        <p>edit insert here.</p>
+      </div>
+
+      <div id="Design" class="tabcontent">
+        <h3>Design</h3>
+        <p>edit design here.</p>
+      </div>
+
+      <div id="Layout" class="tabcontent">
+        <h3>Layout</h3>
+        <p>edit layout here.</p>
+      </div>
+
+      <div id="References" class="tabcontent">
+        <h3>References</h3>
+        <p>edit References here.</p>
+      </div>
+
+      <div id="Mailings" class="tabcontent">
+        <h3>Mailings</h3>
+        <p>edit Mailings here.</p>
+      </div>
+
+      <div id="Review" class="tabcontent">
+        <h3>Review</h3>
+        <p>edit Review here.</p>
+      </div>
+      
+      <div id="View" class="tabcontent">
+        <h3>View</h3>
+        <p>edit View here.</p>
+      </div>
+
+      <div id="Help" class="tabcontent">
+        <h3>Help</h3>
+        <p>edit help here.</p>
+      </div>
+
+      <div id="textArea">
+        <textarea name="textArea" id="textArea"></textarea>
+      </div>
+
+      
+      <script src="script.js"></script>
 </body>
 </html>
