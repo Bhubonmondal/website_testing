@@ -1,81 +1,64 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fake word</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Welcome Here</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-    <p id="fileName">unsaved file - Word</p>
-    <div class="tab">
-        <button class="tablinks" onclick="menuBar(event, 'File')">File</button>
-        <button class="tablinks" onclick="menuBar(event, 'Home')">Home</button>
-        <button class="tablinks" onclick="menuBar(event, 'Insert')">Insert</button>
-        <button class="tablinks" onclick="menuBar(event, 'Design')">Design</button>
-        <button class="tablinks" onclick="menuBar(event, 'Layout')">Layout</button>
-        <button class="tablinks" onclick="menuBar(event, 'References')">References</button>
-        <button class="tablinks" onclick="menuBar(event, 'Mailings')">Mailings</button>
-        <button class="tablinks" onclick="menuBar(event, 'Review')">Review</button>
-        <button class="tablinks" onclick="menuBar(event, 'View')">View</button>
-        <button class="tablinks" onclick="menuBar(event, 'Help')">Help</button>
-      </div>
-      
-      <div id="File" class="tabcontent">
-        <h3>File</h3>
-        <p>edit file here.</p>
-      </div>
-      
-      <div id="Home" class="tabcontent">
-        <h3>Home</h3>
-        <p>edit home here.</p>
-      </div>
-      
-      <div id="Insert" class="tabcontent">
-        <h3>Insert</h3>
-        <p>edit insert here.</p>
-      </div>
 
-      <div id="Design" class="tabcontent">
-        <h3>Design</h3>
-        <p>edit design here.</p>
-      </div>
+    <body>
+        <header>
+            <h1>Smart Zone</h1>
+        </header>
+        <nav>   <!--NAVIGATION TAG-->
+            <a href="#">Home</a>
+            <a href="#">Reviews</a>
+            <a href="#">Courses</a>
+            <a href="#">Study Materials</a>
+            <a href="#">Login/SignUp</a>
+        </nav>
 
-      <div id="Layout" class="tabcontent">
-        <h3>Layout</h3>
-        <p>edit layout here.</p>
-      </div>
+        <main> <!--Main Tag-->
+            <section>  <!--SECTION 1-->
+                <h2>Courses</h2>
+                <video src="video/timer.mp4" width="33%" poster="thumbnail/pic 1.png" controls></video>
+                <video src="video/timer.mp4" width="33%" poster="thumbnail/pic 2.jpeg" controls></video>
+                <video src="video/timer.mp4" width="33%" poster="thumbnail/pic 3.jpg" controls></video>
+            </section>
+            
+            <section> <!--SECTION 2-->
+                <h2>Reviews</h2>
+                <iframe width="30%" height="315" src="https://www.youtube.com/embed/CfEryEkmPEk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <div id="References" class="tabcontent">
-        <h3>References</h3>
-        <p>edit References here.</p>
-      </div>
+                <iframe width="30%" height="315" src="https://www.youtube.com/embed/NrJiXKwUjPI"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-      <div id="Mailings" class="tabcontent">
-        <h3>Mailings</h3>
-        <p>edit Mailings here.</p>
-      </div>
+                <iframe width="30%" height="315" src="https://www.youtube.com/embed/R_NO_dt0q08"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            
+            <section> <!--SECTION 3-->
+                <h2>Study Materials</h2>
+                <a href="pdf/Old.pdf" target="_blank"> <img src="thumbnail/pic 1.png" width="33%"> </a>
+                <a href="pdf/545.pdf" target="_blank"> <img src="thumbnail/pic 2.jpeg" width="33%"> </a>
+                <a href="pdf/last.pdf" target="_blank"> <img src="thumbnail/pic 3.jpg" width="33%"> </a>
+            </section>
 
-      <div id="Review" class="tabcontent">
-        <h3>Review</h3>
-        <p>edit Review here.</p>
-      </div>
-      
-      <div id="View" class="tabcontent">
-        <h3>View</h3>
-        <p>edit View here.</p>
-      </div>
+            <section> <!--SECTION 4-->
+                <h2>Creater</h2>
+                <img src="thumbnail/pic 1.png" alt="404 picture not found">
+                <h3>HTML bot</h3>
+            </section>
+        </main>
 
-      <div id="Help" class="tabcontent">
-        <h3>Help</h3>
-        <p>edit help here.</p>
-      </div>
+        <footer>
+            <a href="#">FAQ</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Term of Policy</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">&copy; 2022</a>
+        </footer>
+        
+    </body>
 
-      <div id="textArea">
-        <textarea name="textArea" id="textArea"></textarea>
-      </div>
-
-      
-      <script src="script.js"></script>
-</body>
 </html>
